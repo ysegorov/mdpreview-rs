@@ -1,0 +1,16 @@
+[package]
+name = "mdpreview"
+version = "0.1.0"
+authors = ["Yuri Egorov <ysegorov@gmail.com>"]
+description = "Simple tool to preview markdown file in browser"
+edition = "2018"
+license = "UNLICENSE"
+
+[[bin]]
+name = "mdpreview"
+
+[dependencies]
+clap = "2"
+pulldown-cmark = "0.7"
+hyper = { version = "0.13", default-features = false, features = ["runtime"] }
+tokio = { version = "0.2", default-features = false, features = ["macros"] }
