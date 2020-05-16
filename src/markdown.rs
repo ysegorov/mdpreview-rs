@@ -15,6 +15,7 @@ pub fn to_html(title: &str, text: &str) -> String {
 
     format!("<html>\n\
         <head>\n\
+        <meta charset=\"utf-8\">\n\
         <title>{}</title>\n\
         <link rel=\"stylesheet\" type=\"text/css\" href=\"/github-markdown.css\">\n\
         </head>\n\

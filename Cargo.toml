@@ -1,6 +1,6 @@
 [package]
 name = "mdpreview"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Yuri Egorov <ysegorov@gmail.com>"]
 description = "Simple tool to preview markdown file in browser"
 edition = "2018"
